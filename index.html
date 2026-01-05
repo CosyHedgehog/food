@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Gallery View (Main/Default) -->
+        <div id="gallery-view" class="view active">
+            <header>
+                <h1>Food Collection</h1>
+                <p>Browse food unlocks</p>
+            </header>
+            <div class="gallery-container" id="gallery-container">
+                <!-- Food items will be added here by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Tier List View (Secondary) -->
+        <div id="tier-list-view" class="view">
+            <header class="tier-list-header">
+                <h2>Tier List</h2>
+                <p>Drag food items into tiers to rank them</p>
+            </header>
+
+            <div class="tier-list">
+                <!-- S Tier -->
+                <div class="tier-row">
+                    <div class="tier-label tier-s">S</div>
+                    <div class="tier-content" data-tier="S" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                </div>
+
+                <!-- A Tier -->
+                <div class="tier-row">
+                    <div class="tier-label tier-a">A</div>
+                    <div class="tier-content" data-tier="A" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                </div>
+
+                <!-- B Tier -->
+                <div class="tier-row">
+                    <div class="tier-label tier-b">B</div>
+                    <div class="tier-content" data-tier="B" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                </div>
+
+                <!-- C Tier -->
+                <div class="tier-row">
+                    <div class="tier-label tier-c">C</div>
+                    <div class="tier-content" data-tier="C" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                </div>
+
+                <!-- D Tier -->
+                <div class="tier-row">
+                    <div class="tier-label tier-d">D</div>
+                    <div class="tier-content" data-tier="D" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                </div>
+            </div>
+
+            <!-- Unranked Items -->
+            <div class="unranked-section">
+                <h2>Unranked Items</h2>
+                <div class="unranked-container" id="unranked-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <!-- Food items will be added here by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Navigation Buttons -->
+    <button id="tier-list-btn" class="floating-nav-button">Go to Tier List</button>
+    <button id="back-to-gallery-btn" class="floating-nav-button">Back to Gallery</button>
+
+    <!-- Modal for viewing food details -->
+    <div id="food-modal" class="modal">
+        <div class="modal-content">
+            <img id="modal-image" src="" alt="" class="modal-image">
+            <div class="modal-info">
+                <h2 id="modal-name"></h2>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

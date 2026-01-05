@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Salmon",
+    "image": "images/20260103_131104.jpg",
+    "description": "Salmon, sweet potatoes, broccolini, eggs"
+  },
+  {
+    "id": 2,
+    "name": "Pollock",
+    "image": "images/20260104_131734.jpg",
+    "description": "Pollock, brown rice, country mix, eggs"
+  },
+  {
+    "id": 3,
+    "name": "Pasta al Tonno",
+    "image": "images/20260105_143106.jpg",
+    "description": "Pasta, tuna, tomatoes, red peppers"
+  }
+]
