@@ -387,6 +387,11 @@ body.tier-list-view #back-to-gallery-btn {
 }
 
 @media (max-width: 768px) {
+    /* Hide tier list button on mobile */
+    #tier-list-btn {
+        display: none !important;
+    }
+
     header h1 {
         font-size: 1.5rem;
     }
