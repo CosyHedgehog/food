@@ -240,9 +240,9 @@ body.tier-list-view #back-to-gallery-btn {
 
 /* Gallery food items - larger size */
 .gallery-food-item {
-    width: 200px !important;
+    width: 280px !important;
     height: auto !important;
-    min-height: 240px;
+    min-height: 320px;
     flex-direction: column;
     overflow: visible;
     border-radius: 8px;
@@ -251,7 +251,7 @@ body.tier-list-view #back-to-gallery-btn {
 
 .gallery-food-item img {
     width: 100%;
-    height: 200px;
+    height: 280px;
     object-fit: cover;
     border-radius: 8px 8px 0 0;
 }
