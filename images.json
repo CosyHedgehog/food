@@ -15,36 +15,36 @@
     "id": 3,
     "name": "Pasta al Tonno",
     "image": "images/20260105_143106.jpg",
-    "description": "Pasta, tuna, tomatoes, red peppers"
+    "description": "Pasta, tuna, onions,tomatoes, red peppers"
   },
   {
     "id": 4,
     "name": "2 Bean Chilli",
     "image": "images/20260106_131559.jpg",
-    "description": "Kidney beans, chickpeas, carrots, tomatoes, red peppers, white rice"
+    "description": "Kidney beans, chickpeas / cannelloni beans / black-eyed beans, onions, carrots, tomatoes, red peppers, white rice"
   },
   {
     "id": 5,
     "name": "Red Lentil Curry",
     "image": "images/20260106_131633.jpg",
-    "description": "Red lentils, tomatoes, red peppers, onions, garlic, ginger, coconut milk,white rice"
+    "description": "Red lentils, tomatoes, red peppers, onions, garlic, ginger, coconut milk, white rice"
   },
   {
     "id": 6,
     "name": "Chicken Thighs",
     "image": "images/20260106_131633.jpg",
-    "description": ""
+    "description": "Chicken thighs, sweet potato, broccolini, eggs"
   },
   {
     "id": 7,
     "name": "Chicken Wraps",
     "image": "images/20260106_131633.jpg",
-    "description": ""
+    "description": "Chicken breasts, cucumber, red chilli, spring onions, eggs, wraps"
   },
   {
     "id": 8,
     "name": "Chickpea Curry",
     "image": "images/20260106_131633.jpg",
-    "description": ""
+    "description": "Chickpeas x 2, tomatoes, red peppers, onions, garlic, ginger, coconut milk, white rice"
   }
 ]
