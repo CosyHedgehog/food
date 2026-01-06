@@ -22,5 +22,29 @@
     "name": "2 Bean Chilli",
     "image": "images/20260106_131559.jpg",
     "description": "Kidney beans, chickpeas, carrots, tomatoes, red peppers, white rice"
+  },
+  {
+    "id": 5,
+    "name": "Red Lentil Curry",
+    "image": "images/20260106_131633.jpg",
+    "description": "Red lentils, tomatoes, red peppers, onions, garlic, ginger, coconut milk,white rice"
+  },
+  {
+    "id": 6,
+    "name": "Chicken Thighs",
+    "image": "images/20260106_131633.jpg",
+    "description": ""
+  },
+  {
+    "id": 7,
+    "name": "Chicken Wraps",
+    "image": "images/20260106_131633.jpg",
+    "description": ""
+  },
+  {
+    "id": 8,
+    "name": "Chickpea Curry",
+    "image": "images/20260106_131633.jpg",
+    "description": ""
   }
 ]

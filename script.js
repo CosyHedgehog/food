@@ -29,9 +29,16 @@ async function init() {
 function initGalleryView() {
     const galleryContainer = document.getElementById('gallery-container');
     galleryContainer.innerHTML = '';
-    
-    // Create food items in gallery
-    foodItems.forEach(item => {
+
+    // Create a shuffled copy of food items
+    const shuffledFoodItems = [...foodItems];
+    for (let i = shuffledFoodItems.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledFoodItems[i], shuffledFoodItems[j]] = [shuffledFoodItems[j], shuffledFoodItems[i]];
+    }
+
+    // Create food items in gallery using shuffled order
+    shuffledFoodItems.forEach(item => {
         const foodElement = createFoodItem(item, false, true); // false = not draggable, true = is gallery
         galleryContainer.appendChild(foodElement);
     });
@@ -335,6 +342,41 @@ function closeModal() {
     document.body.style.overflow = '';
 }
 
+// Random food selection function
+function selectRandomFood() {
+    // Only work in gallery view
+    if (!document.getElementById('gallery-view').classList.contains('active')) {
+        return;
+    }
+
+    const galleryItems = document.querySelectorAll('.gallery-food-item');
+    if (galleryItems.length === 0) return;
+
+    // Remove previous selection highlight
+    document.querySelectorAll('.gallery-food-item.selected').forEach(item => {
+        item.classList.remove('selected');
+    });
+
+    // Select random item
+    const randomIndex = Math.floor(Math.random() * galleryItems.length);
+    const selectedItem = galleryItems[randomIndex];
+
+    // Add selection class for animation
+    selectedItem.classList.add('selected');
+
+    // Scroll to selected item
+    selectedItem.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+        inline: 'center'
+    });
+
+    // Remove selection after animation
+    setTimeout(() => {
+        selectedItem.classList.remove('selected');
+    }, 2000);
+}
+
 // View switching functions
 function showGalleryView() {
     document.getElementById('gallery-view').classList.add('active');
@@ -357,13 +399,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // View navigation buttons
     const tierListBtn = document.getElementById('tier-list-btn');
     const backToGalleryBtn = document.getElementById('back-to-gallery-btn');
-    
+    const randomFoodBtn = document.getElementById('random-food-btn');
+
     if (tierListBtn) {
         tierListBtn.addEventListener('click', showTierListView);
     }
-    
+
     if (backToGalleryBtn) {
         backToGalleryBtn.addEventListener('click', showGalleryView);
+    }
+
+    if (randomFoodBtn) {
+        randomFoodBtn.addEventListener('click', selectRandomFood);
     }
     
     // Add visual feedback for unranked container
