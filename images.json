@@ -2,49 +2,49 @@
   {
     "id": 1,
     "name": "Salmon",
-    "image": "images/20260103_131104.jpg",
+    "image": "images/20260103_131104.png",
     "description": "Salmon, sweet potatoes, broccolini, eggs"
   },
   {
     "id": 2,
     "name": "Pollock",
-    "image": "images/20260104_131734.jpg",
+    "image": "images/20260104_131734.png",
     "description": "Pollock, brown rice, country mix, eggs"
   },
   {
     "id": 3,
     "name": "Pasta al Tonno",
-    "image": "images/20260105_143106.jpg",
-    "description": "Pasta, tuna, onions,tomatoes, red peppers"
+    "image": "images/20260105_143106.png",
+    "description": "Pasta, tuna, onions, tomatoes, red peppers"
   },
   {
     "id": 4,
     "name": "2 Bean Chilli",
-    "image": "images/20260106_131559.jpg",
-    "description": "Kidney beans, chickpeas / cannelloni beans / black-eyed beans, onions, carrots, tomatoes, red peppers, white rice"
+    "image": "images/20260106_131559.png",
+    "description": "Kidney beans, chickpeas, onions, carrots, tomatoes, red peppers, white rice"
   },
   {
     "id": 5,
     "name": "Red Lentil Curry",
-    "image": "images/20260106_131633.jpg",
+    "image": "images/20260106_131633.png",
     "description": "Red lentils, tomatoes, red peppers, onions, garlic, ginger, coconut milk, white rice"
   },
   {
     "id": 6,
     "name": "Chicken Thighs",
-    "image": "images/20260106_131633.jpg",
+    "image": "images/20260106_131633.png",
     "description": "Chicken thighs, sweet potato, broccolini, eggs"
   },
   {
     "id": 7,
     "name": "Chicken Wraps",
-    "image": "images/20260106_131633.jpg",
+    "image": "images/20260106_131633.png",
     "description": "Chicken breasts, cucumber, red chilli, spring onions, eggs, wraps"
   },
   {
     "id": 8,
     "name": "Chickpea Curry",
-    "image": "images/20260106_131633.jpg",
+    "image": "images/20260106_131633.png",
     "description": "Chickpeas x 2, tomatoes, red peppers, onions, garlic, ginger, coconut milk, white rice"
   }
 ]
