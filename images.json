@@ -16,5 +16,11 @@
     "name": "Pasta al Tonno",
     "image": "images/20260105_143106.jpg",
     "description": "Pasta, tuna, tomatoes, red peppers"
+  },
+  {
+    "id": 4,
+    "name": "2 Bean Chilli",
+    "image": "images/20260106_131559.jpg",
+    "description": "Kidney beans, chickpeas, carrots, tomatoes, red peppers, white rice"
   }
 ]
