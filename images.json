@@ -32,19 +32,7 @@
   {
     "id": 6,
     "name": "Chicken Thighs",
-    "image": "images/20260106_131633.png",
+    "image": "images/20260109_123736.png",
     "description": "Chicken thighs, sweet potato, broccolini, eggs"
-  },
-  {
-    "id": 7,
-    "name": "Chicken Wraps",
-    "image": "images/20260106_131633.png",
-    "description": "Chicken breasts, cucumber, red chilli, spring onions, eggs, wraps"
-  },
-  {
-    "id": 8,
-    "name": "Chickpea Curry",
-    "image": "images/20260106_131633.png",
-    "description": "Chickpeas x 2, tomatoes, red peppers, onions, garlic, ginger, coconut milk, white rice"
   }
 ]
