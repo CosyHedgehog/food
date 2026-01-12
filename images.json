@@ -34,5 +34,11 @@
     "name": "Chicken Thighs",
     "image": "images/20260109_123736.png",
     "description": "Chicken thighs, sweet potato, broccolini, eggs"
+  },
+  {
+    "id": 7,
+    "name": "Chicken Wraps",
+    "image": "images/20260112_135525.png",
+    "description": "Chicken breasts, cucumber, red chilli, red onion, spring onions, eggs, wraps"
   }
 ]
